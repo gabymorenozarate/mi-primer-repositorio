@@ -22,13 +22,14 @@ body{
 
 .encabezado {
     background-color: rgb(97, 47, 247);
-
+    flex-direction: column;
 }
 
 .encabezado-img {
     width: 12rem;
     display: inline-block;
     border-style: ridge;
+    
 
 }
 
@@ -36,6 +37,15 @@ p {
     border-style: groove;
 }
 
+
+.bg-propio{
+  color:  rgb(52, 4, 4);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+
+}
 
 .navbar li{
     display: inline-block;
@@ -51,12 +61,17 @@ p {
     font-family: 'Cormorant SC', serif;
     text-align: center;
     text-decoration: none;
+
 }
 
 
 .navbar li a{
     text-decoration: none;
     text-align: center;
+    padding: 1.5rem;
+    top: 0;
+    z-index: 999;
+    color: rgb(97, 10, 10);
 }
 
 .navbar li a:hover{
@@ -100,6 +115,9 @@ text-decoration: none;
    
 }
 
+.row {
+    margin-top: 20%;
+}
 
 .pie-de-pagina p {
     font-size: 1.3rem;
