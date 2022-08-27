@@ -1,0 +1,24 @@
+{
+  "name": "mi-primer-repositorio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabymorenozarate/mi-primer-repositorio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabymorenozarate/mi-primer-repositorio/issues"
+  },
+  "homepage": "https://github.com/gabymorenozarate/mi-primer-repositorio#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
