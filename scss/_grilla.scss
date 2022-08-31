@@ -1,0 +1,33 @@
+.contenedor-main {
+    display: grid;
+    grid-template-columns:  2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    text-align:initial;
+    margin: 0;
+    padding-bottom: 0;
+    margin-top: 5%;
+   
+}
+
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25%;
+   
+}
+
+.row {
+    margin-top: 20%;
+}
+
+.pie-de-pagina p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+   margin-top: 20rem;
+   background-color: $color-nav;
+}
+
+.subtitulo {
+    margin-top: 50px;
+}

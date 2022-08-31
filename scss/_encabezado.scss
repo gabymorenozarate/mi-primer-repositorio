@@ -1,0 +1,29 @@
+
+.encabezado {
+    background-color: $color-nav;
+    flex-direction: column;
+  
+
+    .encabezado-img {
+        width: 12rem;
+        display: inline-block;
+        border-style: ridge;
+        
+}
+
+}
+
+
+p {
+    border-style: groove;
+    
+}
+
+
+.bg-propio{
+  color:  rgb(52, 4, 4);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
