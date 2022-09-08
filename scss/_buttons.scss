@@ -1,0 +1,9 @@
+.boton {
+  border-radius: 10px;
+  
+    @extend %botonBase;
+   
+    &:hover {
+      background-color: rgb(8, 86, 164);
+    }
+  }
