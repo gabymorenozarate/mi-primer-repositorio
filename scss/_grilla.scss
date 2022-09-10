@@ -10,6 +10,15 @@ section {
    
 }
 
+.seccionTres {
+
+    @include display($direction:row, $justify:center, $align:center);
+
+   
+    
+    background-color: map-get ($styles, primaryColor);
+}
+
 
 .contenedor-main {
     display: grid;
@@ -21,7 +30,7 @@ section {
     margin-top: 5%;
    
 }
-}
+
 
 .contenedor-cards {
     display: flex;
@@ -39,9 +48,10 @@ section {
     font-weight: bold;
     text-align: center;
    margin-top: 20rem;
-   background-color: $color-nav;
+   background-color: rgb(12, 19, 225);
 }
 
 .subtitulo {
     margin-top: 50px;
+}
 }

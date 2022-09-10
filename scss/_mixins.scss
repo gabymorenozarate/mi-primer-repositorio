@@ -1,14 +1,5 @@
 
-  @mixin botonsubs ($borderColor, $textColor) { 
-    padding: 10px;
-    border-radius: 05px;
-    background-color: borderColor;
-    color:$textColor;
-    margin-bottom: 5px;
-    border-bottom: 03px solid $borderColor;
-    
-  }
-
+  
   @mixin display ($direction, $justify, $align) {
     display: flex;
     flex-direction: $direction;

@@ -44,7 +44,7 @@ body {
   font-weight: bold;
   text-align: center;
   margin-top: 20rem;
-  background-color: rgb(97, 47, 247);
+  background-color: rgb(12, 19, 225);
 }
 
 .subtitulo {
@@ -68,7 +68,7 @@ body {
   padding: 1.5rem;
   top: 0;
   z-index: 999;
-  color: rgb(97, 47, 247);
+  color: rgb(12, 19, 225);
   justify-content: space-around;
 }
 .navbar ul li {

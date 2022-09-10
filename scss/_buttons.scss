@@ -11,6 +11,22 @@
     
   }
 
+  .botonsubs {
+    border-radius: 10px;
+    @extend .botonBasesubs;
+    
+    color: rgb(227, 227, 227);
+  
+      @extend .botonBase;
+     
+      &:hover {
+        background-color: rgb(227, 11, 11);
+      }
+      
+    }
+
    .btn {
     @include botonsubs ($borderColor: red, $textColor: white);
    }
+
+   
