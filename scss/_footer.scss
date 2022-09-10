@@ -1,0 +1,22 @@
+footer {
+background-color: rgb(12, 19, 225);
+ul {
+     list-style-type: none;
+            display: map-get ($style, displayFlex);
+
+            li{
+                a{
+           color: map-get ($style, colorPrimario );
+}
+}
+}
+
+}
+
+.pie-de-pagina p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+   margin-top: 20rem;
+   background-color: $map map-get($styles, primaryColor)
+}

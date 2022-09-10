@@ -10,3 +10,7 @@
     }
     
   }
+
+   .btn {
+    @include botonsubs ($borderColor: red, $textColor: white);
+   }

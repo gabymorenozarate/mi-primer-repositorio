@@ -1,3 +1,16 @@
+main {
+    padding: 20px;
+
+section {
+    @extend %flexrow;
+}
+
+.seccionDos {
+    @include display($direction:row, $justify:center, $align:center);
+   
+}
+
+
 .contenedor-main {
     display: grid;
     grid-template-columns:  2fr 2fr 2fr;
@@ -7,6 +20,7 @@
     padding-bottom: 0;
     margin-top: 5%;
    
+}
 }
 
 .contenedor-cards {

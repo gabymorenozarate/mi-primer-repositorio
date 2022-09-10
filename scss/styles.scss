@@ -1,11 +1,7 @@
 
-
-//variables
-@import "./variables";
-
 // SASS II
-@import "./extends";
 @import "./mixins";
+@import "./extends";
 @import "./maps";
 
 
@@ -18,4 +14,10 @@
 @import "./encabezado";
 @import "./extends";
 @import "./buttons";
+
+
+
+//variables
+@import "./variables";
+
 

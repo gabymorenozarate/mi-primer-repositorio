@@ -1,8 +1,11 @@
 $styles: (
-  primaryColor: rgb(255, 255, 255),
+  primaryColor: rgb(12, 19, 225),
   secondaryColor: rgb(0, 0, 0),
-  backgroundHeader: linear-gradient(#00509D, #1A76BC, #1E91D0),
-  backgroundNav: rgb(49, 46, 46),
-  backgroundBody: rgb(237, 237, 237),
-  backgroundH1:  rgb(165, 165, 165),
-)
+  paddingUno: 10px,
+  paddingDos: 10px,
+  borderRadiusUno:05px,
+  borderRadiusDos:07px,
+  displayFlex:flex,
+  flexColumn: column,
+  flexRow:row,
+  )
