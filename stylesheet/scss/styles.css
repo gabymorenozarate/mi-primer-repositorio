@@ -1,7 +1,19 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap");
-.botonBase,
-.boton {
+.boton2 {
+  padding: 10px;
+  background-color: rgb(225, 12, 12);
+  color: white;
+  border-radius: 5px;
+  border-bottom: 3px solid red;
+}
+
+.box {
+  height: 50px;
+  width: 500px;
+}
+
+.botonBase, .boton {
   border: none;
   padding: 0.8rem;
   margin-right: 0.5rem;
@@ -20,7 +32,22 @@ body {
   background-color: rgb(0, 255, 255);
 }
 
-.contenedor-main {
+main {
+  padding: 20px;
+}
+main .seccionDos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .seccionTres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .contenedor-main {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   grid-template-rows: 2fr 2fr 2fr;
@@ -29,26 +56,22 @@ body {
   padding-bottom: 0;
   margin-top: 5%;
 }
-
-.contenedor-cards {
+main .contenedor-cards {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 25%;
 }
-
-.row {
+main .row {
   margin-top: 20%;
 }
-
-.pie-de-pagina p {
+main .pie-de-pagina p {
   font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
   margin-top: 20rem;
   background-color: rgb(12, 19, 225);
 }
-
-.subtitulo {
+main .subtitulo {
   margin-top: 50px;
 }
 
@@ -69,7 +92,6 @@ body {
   padding: 1.5rem;
   top: 0;
   z-index: 999;
-  color: rgb(12, 19, 225);
   justify-content: space-around;
 }
 .navbar ul li {
@@ -178,7 +200,7 @@ body {
   }
 }
 .encabezado {
-  background-color: rgb(97, 47, 247);
+  background-color: rgb(12, 19, 225);
   flex-direction: column;
 }
 .encabezado .encabezado-img {
@@ -199,8 +221,7 @@ p {
   z-index: 999;
 }
 
-.botonBase,
-.boton {
+.botonBase, .boton {
   border: none;
   padding: 0.8rem;
   margin-right: 0.5rem;
@@ -216,11 +237,10 @@ p {
   background-color: rgb(11, 119, 227);
 }
 
-.btn {
-  padding: 10px;
-  border-radius: 5px;
-  background-color: borderColor;
-  color: white;
-  margin-bottom: 5px;
-  border-bottom: 3px solid red;
-} /*# sourceMappingURL=styles.css.map */
+.botonsubs {
+  border-radius: 10px;
+  color: rgb(227, 227, 227) !important;
+}
+.botonsubs:hover {
+  background-color: rgb(227, 11, 11) !important;
+}/*# sourceMappingURL=styles.css.map */

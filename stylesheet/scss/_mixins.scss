@@ -11,5 +11,17 @@
   color: white;
   border-radius: 05px;
   border-bottom: 03px solid $borderColor;
-  color: $textColor;
+}
+
+.boton2 {
+  @include botonsubs(red, white )
+}
+
+@mixin sizes ($width, $height) {
+  height: $height;
+  width: $width;
+}
+
+.box {
+  @include sizes(500px, 50px);
 }

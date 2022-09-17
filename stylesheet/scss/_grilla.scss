@@ -2,7 +2,7 @@ main {
   padding: 20px;
 
   section {
-    @extend %flexrow;
+    @extend %flexrow !optional;
   }
 
   .seccionDos {
@@ -11,8 +11,6 @@ main {
 
   .seccionTres {
     @include display($direction: row, $justify: center, $align: center);
-
-    background-color: map-get ($styles, primaryColor);
   }
 
   .contenedor-main {
