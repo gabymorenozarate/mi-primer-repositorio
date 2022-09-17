@@ -1,14 +1,12 @@
 footer {
-
-    background-color: $backgroundFooter;
-    ul{
-        list-style-type: none;
-        display: map-get($styles, displayFlex);
-        li{
-            a{
-                color: map-get($styles , primaryColor );
-            }
-        }
+  background-color: $backgroundFooter;
+  ul {
+    list-style-type: none;
+    display: map-get($styles, displayFlex);
+    li {
+      a {
+        color: map-get($styles, primaryColor);
+      }
     }
-
+  }
 }

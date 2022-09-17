@@ -1,8 +1,15 @@
+@mixin display($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
 
-  
-  @mixin display ($direction, $justify, $align) {
-    display: flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-    align-items: $align;
-  }
+@mixin botonsubs($borderColor, $textColor) {
+  padding: 10px;
+  background-color: rgb(225, 12, 12);
+  color: white;
+  border-radius: 05px;
+  border-bottom: 03px solid $borderColor;
+  color: $textColor;
+}

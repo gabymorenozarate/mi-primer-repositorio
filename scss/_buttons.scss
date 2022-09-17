@@ -1,32 +1,29 @@
 .boton {
   border-radius: 10px;
-  
+
   color: rgb(144, 40, 192);
 
-    @extend .botonBase;
-   
-    &:hover {
-      background-color: rgb(11, 119, 227);
-    }
-    
+  @extend .botonBase;
+
+  &:hover {
+    background-color: rgb(11, 119, 227);
   }
+}
 
-  .botonsubs {
-    border-radius: 10px;
-    @extend .botonBasesubs;
-    
-    color: rgb(227, 227, 227);
-  
-      @extend .botonBase;
-     
-      &:hover {
-        background-color: rgb(227, 11, 11);
-      }
-      
-    }
+.botonsubs {
+  border-radius: 10px;
+  @extend %boton2;
 
-   .btn {
-    @include botonsubs ($borderColor: red, $textColor: white);
-   }
+  color: rgb(227, 227, 227) !important;
 
-   
+  @extend %botonBase;
+
+  &:hover {
+    background-color: rgb(227, 11, 11) !important;
+  }
+}
+
+.boton2 {
+  @include botonsubs(red, white);
+  color: red;
+}

@@ -1,27 +1,20 @@
-
 .encabezado {
-    background-color: rgb(12, 19, 225);
-    flex-direction: column;
-  
+  background-color: rgb(12, 19, 225);
+  flex-direction: column;
 
-    .encabezado-img {
-        width: 12rem;
-        display: inline-block;
-        border-style: ridge;
-        
+  .encabezado-img {
+    width: 12rem;
+    display: inline-block;
+    border-style: ridge;
+  }
 }
-
-}
-
 
 p {
-    border-style: groove;
-    
+  border-style: groove;
 }
 
-
-.bg-propio{
-  color:  rgb(52, 4, 4);
+.bg-propio {
+  color: rgb(52, 4, 4);
   position: fixed;
   width: 100%;
   top: 0;

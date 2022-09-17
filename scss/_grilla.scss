@@ -1,57 +1,49 @@
 main {
-    padding: 20px;
+  padding: 20px;
 
-section {
+  section {
     @extend %flexrow;
-}
+  }
 
-.seccionDos {
-    @include display($direction:row, $justify:center, $align:center);
-   
-}
+  .seccionDos {
+    @include display($direction: row, $justify: center, $align: center);
+  }
 
-.seccionTres {
+  .seccionTres {
+    @include display($direction: row, $justify: center, $align: center);
 
-    @include display($direction:row, $justify:center, $align:center);
-
-   
-    
     background-color: map-get ($styles, primaryColor);
-}
+  }
 
-
-.contenedor-main {
+  .contenedor-main {
     display: grid;
-    grid-template-columns:  2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 2fr 2fr 2fr;
-    text-align:initial;
+    text-align: initial;
     margin: 0;
     padding-bottom: 0;
     margin-top: 5%;
-   
-}
+  }
 
-
-.contenedor-cards {
+  .contenedor-cards {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 25%;
-   
-}
+  }
 
-.row {
+  .row {
     margin-top: 20%;
-}
+  }
 
-.pie-de-pagina p {
+  .pie-de-pagina p {
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
-   margin-top: 20rem;
-   background-color: rgb(12, 19, 225);
-}
+    margin-top: 20rem;
+    background-color: rgb(12, 19, 225);
+  }
 
-.subtitulo {
+  .subtitulo {
     margin-top: 50px;
-}
+  }
 }

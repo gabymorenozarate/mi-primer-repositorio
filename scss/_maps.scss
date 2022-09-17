@@ -3,17 +3,14 @@ $styles: (
   secondaryColor: rgb(0, 0, 0),
   paddingUno: 10px,
   paddingDos: 10px,
-  borderRadiusUno:05px,
-  borderRadiusDos:07px,
-  displayFlex:flex,
+  borderRadiusUno: 05px,
+  borderRadiusDos: 07px,
+  displayFlex: flex,
   flexColumn: column,
-  flexRow:row,
-  );
+  flexRow: row,
+);
 
-  $colores: (
-    primaryColor: rgb(12, 19, 225),
+$colores: (
+  primaryColor: rgb(12, 19, 225),
   secondaryColor: rgb(0, 0, 0),
-
-  )
-
-  
+);

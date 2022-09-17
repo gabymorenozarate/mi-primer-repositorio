@@ -1,102 +1,84 @@
 /*realizando responsive para index y nuevos videos */
 
 @media screen and (max-width: 500px) {
+  .encabezado-img {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+  }
 
-    .encabezado-img {
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        display: inline-block;
-    
-    }
-    
-    .navbar li{
-        display: inline-block;
-    }
-    
-    
-    
-    
-    .navbar {
-       
-        display: inline-block;
-    }
-    
-    
-    .navbar li a:hover{
-        background: #090a2f;
-    
-    }
-        
-    .titulo-principal {
-        font-family: 'Cormorant SC', serif;
-        font-size: 2rem;
-        text-decoration: underline;
-        text-align: center;
-        flex-direction: column;
-        display: inline-block;
-    }
-    
-    .aura-zen {
-        font-family: 'Cormorant SC', serif;
-        font-size: 3rem;
-        text-align: center;
-        flex-direction: column;
-        display: inline-block;
-    }
-    
-    .subtitulo {
-        text-decoration: none;
-        margin-top: 50px;
-    }
-    
-    .contenedor-main {
-       
-        margin: 0;
-        padding-bottom: 0;
-        flex-direction: column;
-        display: inline-block;
-        
-    }
-    
-    .Container-cards {
-        flex-wrap: wrap;
-        flex-direction: column;
-        display: inline-block;
-       
-      
-    }
-    
-    .cards {
-        width: 12rem;
-    
-    }
-    
-    
-    
-    .cards img {
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-    
-    }
-    
-    @media (max-width:768px) {
-    #meditacion {
-        width: 90% !important;
-    }
-    
-    }
-    
-    .servicio-fila {
-        width: 100% !important;
-        text-align: center;
-    }
-    
-    @media (max-width: 576px) {
-        .icono-wrap{
-        flex-wrap:wrap;
-        justify-content: center !important;
-    
-    }
-    }
+  .navbar li {
+    display: inline-block;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li a:hover {
+    background: #090a2f;
+  }
+
+  .titulo-principal {
+    font-family: "Cormorant SC", serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .aura-zen {
+    font-family: "Cormorant SC", serif;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .subtitulo {
+    text-decoration: none;
+    margin-top: 50px;
+  }
+
+  .contenedor-main {
+    margin: 0;
+    padding-bottom: 0;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .Container-cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: inline-block;
+  }
+
+  .cards {
+    width: 12rem;
+  }
+
+  .cards img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  #meditacion {
+    width: 90% !important;
+  }
+}
+
+.servicio-fila {
+  width: 100% !important;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
