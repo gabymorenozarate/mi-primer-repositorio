@@ -243,4 +243,9 @@ p {
 }
 .botonsubs:hover {
   background-color: rgb(227, 11, 11) !important;
+}
+
+.subs {
+  margin-bottom: 10px;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

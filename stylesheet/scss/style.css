@@ -7,6 +7,11 @@
   background-color: rgb(97, 47, 247);
 }
 
+.subs {
+  margin-top: 100rem;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
